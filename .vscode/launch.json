@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Edge",
-            "type": "pwa-msedge",
+            "type": "edge",
             "request": "launch",
             "url": "${workspaceFolder}/test/test.html",
             "webRoot": "${workspaceFolder}"

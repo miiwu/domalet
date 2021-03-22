@@ -1,0 +1,27 @@
+{
+    "name": "domalet",
+    "type": "module",
+    "version": "0.0.1",
+    "description": "domain, applet, main = app, then, domalet.",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "eslint": "eslint src --ext .js,.html --fix",
+        "prettier": "prettier --write src/** --check"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/miiwu/domalet.git"
+    },
+    "author": "miiwu",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/miiwu/domalet/issues"
+    },
+    "homepage": "https://github.com/miiwu/domalet#readme",
+    "devDependencies": {
+        "eslint": "^7.22.0",
+        "prettier": "^2.2.1"
+    }
+}
